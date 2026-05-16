@@ -1,0 +1,16 @@
+{
+  "name": "love-calculator-app",
+  "version": "1.0.0",
+  "description": "love calculator",
+  "license": "ISC",
+  "author": "Aliyu Umar Jada",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "inquire": "^0.4.8",
+    "nodemon": "^3.1.14"
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Calculator 💕</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- html2canvas for download -->
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>💖Jada Love Calculator</h1>
+    <p class="subtitle">Find Your Love Match with Jada Love Calculator!</p>
+
+    <div class="form">
+      <input type="text" id="name1" placeholder="Your Name" />
+      <input type="text" id="name2" placeholder="Crush's Name" />
+      
+      <button onclick="calculateLove()" class="calculate-btn">Calculate Love ❤️</button>
+      <!-- <button onclick="clearAll()" class="clear-btn">Clear</button> -->
+    </div>
+
+    <div id="result" class="result"></div>
+
+    <!-- History -->
+    <!-- <div class="history">
+      <h3>💕 Previous Calculations</h3>
+      <div id="historyList"></div>
+    </div> -->
+
+    <!-- Footer -->
+    <div class="footer">
+      &copy; 2026 Jada Love Calculator<br>
+      <small>Powered by Jada Creative Studio</small>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
